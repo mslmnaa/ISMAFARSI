@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, MapPin } from 'lucide-react';
 import { NAVIGATION_MENU, SOCIAL_LINKS } from '../utils/constants';
 import { useContent } from '../context/ContentContext';
@@ -63,10 +64,16 @@ const Footer = () => {
         <div className="border-t border-gray-200 dark:border-dark-text/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 dark:text-gray-300">
             <p>{content.site.footerCopyright}</p>
-            <div className="flex gap-6 mt-4 md:mt-0">
+            <div className="flex gap-6 mt-4 md:mt-0 items-center">
               <a href="#" className="hover:text-primary-700 transition-smooth">Privacy Policy</a>
               <a href="#" className="hover:text-primary-700 transition-smooth">Terms of Service</a>
               <a href="#" className="hover:text-primary-700 transition-smooth">Contact</a>
+              <Link
+                to="/login"
+                className="text-gray-400 dark:text-gray-500 hover:text-primary-700 transition-smooth text-xs"
+              >
+                Login Admin
+              </Link>
             </div>
           </div>
         </div>
