@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: `${process.env.PUBLIC_URL || ''}/api`,
 });
 
 // Interceptor to add JWT token

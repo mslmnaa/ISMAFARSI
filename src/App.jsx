@@ -56,7 +56,7 @@ function App() {
   return (
     <ThemeProvider>
       <ContentProvider>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL || undefined}>
           <Shell />
         </Router>
       </ContentProvider>

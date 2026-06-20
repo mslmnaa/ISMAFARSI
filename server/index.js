@@ -54,8 +54,10 @@ app.post('/api/upload', authenticateToken, upload.single('image'), (req, res) =>
   if (!req.file) {
     return res.status(400).json({ error: 'No file uploaded' });
   }
-  // Using a relative URL or absolute. Absolute is easier for external usage.
-  const url = `${req.protocol}://${req.get('host')}/uploads/${req.file.filename}`;
+  // Relative URL with optional base path prefix so it works behind a subpath proxy
+  // (e.g. http://IP/ismafarsi). Set PUBLIC_BASE_PATH=/ismafarsi when deploying under a subpath.
+  const basePath = process.env.PUBLIC_BASE_PATH || '';
+  const url = `${basePath}/uploads/${req.file.filename}`;
   res.json({ url });
 });
 
