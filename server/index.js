@@ -188,6 +188,17 @@ createCrudRoutes('programs', 'program');
 createCrudRoutes('regions', 'region');
 createCrudRoutes('settings', 'settings');
 
+// --- SERVE REACT BUILD (production) ---
+// The React app is built to ../build (relative to this server folder).
+// Express 5 does not accept app.get('*'), so use a regex that excludes API/upload routes.
+const buildPath = path.join(__dirname, '..', 'build');
+if (fs.existsSync(buildPath)) {
+  app.use(express.static(buildPath));
+  app.get(/^(?!\/api|\/uploads).*/, (req, res) => {
+    res.sendFile(path.join(buildPath, 'index.html'));
+  });
+}
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
