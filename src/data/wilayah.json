@@ -1,0 +1,92 @@
+{
+  "regions": [
+    {
+      "id": 1,
+      "name": "ISMAFARSI SUMATERA 1",
+      "code": "SUM1",
+      "description": "Wilayah ISMAFARSI yang mencakup Sumatera Utara, Riau, dan Kepulauan Riau",
+      "provinces": ["Sumatera Utara", "Riau", "Kepulauan Riau"],
+      "members": 150,
+      "universities": 12,
+      "head": "Nama Ketua Regional",
+      "email": "sum1@ismafarsi.org"
+    },
+    {
+      "id": 2,
+      "name": "ISMAFARSI SUMATERA 2",
+      "code": "SUM2",
+      "description": "Wilayah ISMAFARSI yang mencakup Sumatera Barat, Jambi, dan Bengkulu",
+      "provinces": ["Sumatera Barat", "Jambi", "Bengkulu"],
+      "members": 120,
+      "universities": 10,
+      "head": "Nama Ketua Regional",
+      "email": "sum2@ismafarsi.org"
+    },
+    {
+      "id": 3,
+      "name": "ISMAFARSI JABODELATA",
+      "code": "JABODELATA",
+      "description": "Wilayah ISMAFARSI yang mencakup Jakarta, Bogor, Depok, Tangerang, dan Bekasi",
+      "provinces": ["DKI Jakarta", "Jawa Barat"],
+      "members": 500,
+      "universities": 35,
+      "head": "Nama Ketua Regional",
+      "email": "jabodelata@ismafarsi.org"
+    },
+    {
+      "id": 4,
+      "name": "ISMAFARSI PRIANGAN",
+      "code": "PRIANGAN",
+      "description": "Wilayah ISMAFARSI yang mencakup Bandung, Cirebon, dan sekitarnya",
+      "provinces": ["Jawa Barat"],
+      "members": 200,
+      "universities": 18,
+      "head": "Nama Ketua Regional",
+      "email": "priangan@ismafarsi.org"
+    },
+    {
+      "id": 5,
+      "name": "ISMAFARSI JOGLOSEPUR",
+      "code": "JOGLOSEPUR",
+      "description": "Wilayah ISMAFARSI yang mencakup Yogyakarta, Solo, dan Semarang",
+      "provinces": ["DI Yogyakarta", "Jawa Tengah"],
+      "members": 250,
+      "universities": 20,
+      "head": "Nama Ketua Regional",
+      "email": "joglosepur@ismafarsi.org"
+    },
+    {
+      "id": 6,
+      "name": "ISMAFARSI BATARA JATIM",
+      "code": "JATIM",
+      "description": "Wilayah ISMAFARSI Jawa Timur",
+      "provinces": ["Jawa Timur"],
+      "members": 350,
+      "universities": 28,
+      "head": "Nama Ketua Regional",
+      "email": "jatim@ismafarsi.org"
+    },
+    {
+      "id": 7,
+      "name": "ISMAFARSI KALIMANTAN",
+      "code": "KALIMANTAN",
+      "description": "Wilayah ISMAFARSI yang mencakup seluruh pulau Kalimantan",
+      "provinces": ["Kalimantan Barat", "Kalimantan Selatan", "Kalimantan Tengah", "Kalimantan Timur", "Kalimantan Utara"],
+      "members": 80,
+      "universities": 8,
+      "head": "Nama Ketua Regional",
+      "email": "kalimantan@ismafarsi.org"
+    },
+    {
+      "id": 8,
+      "name": "ISMAFARSI INDONESIA TIMUR",
+      "code": "TIMUR",
+      "description": "Wilayah ISMAFARSI yang mencakup Sulawesi, Bali, NTT, NTB, dan Papua",
+      "provinces": ["Sulawesi", "Bali", "Nusa Tenggara Timur", "Nusa Tenggara Barat", "Papua"],
+      "members": 100,
+      "universities": 9,
+      "head": "Nama Ketua Regional",
+      "email": "timur@ismafarsi.org"
+    }
+  ]
+}

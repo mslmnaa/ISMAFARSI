@@ -1,0 +1,136 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "department": "Sekretaris Kabinet",
+      "programs": [
+        {
+          "id": 101,
+          "name": "SOP Kesekretariatan",
+          "goal": "Standardisasi prosedur kesekretariatan",
+          "description": "Membuat dan mendokumentasikan prosedur operasional standar untuk semua kegiatan kesekretariatan organisasi"
+        },
+        {
+          "id": 102,
+          "name": "Management of ISMAFARSI Activity",
+          "goal": "Mengelola seluruh aktivitas organisasi",
+          "description": "Mengkoordinasikan dan mengelola semua kegiatan ISMAFARSI dari perencanaan hingga evaluasi"
+        },
+        {
+          "id": 103,
+          "name": "Pengarsipan Berkas Kepengurusan",
+          "goal": "Memelihara dokumentasi organisasi",
+          "description": "Menyimpan dan mengorganisir semua dokumen kepengurusan dengan sistem yang terstruktur"
+        },
+        {
+          "id": 104,
+          "name": "Database Event Nasional ISMAFARSI",
+          "goal": "Menciptakan database event",
+          "description": "Membuat dan memelihara database yang berisi informasi lengkap semua event nasional"
+        },
+        {
+          "id": 105,
+          "name": "Pembuatan dan Penyimpanan Inventaris ISMAFARSI",
+          "goal": "Mengelola inventaris organisasi",
+          "description": "Membuat dan memelihara inventaris aset organisasi dengan pencatatan yang akurat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "department": "Keuangan dan Bisnis",
+      "programs": [
+        {
+          "id": 201,
+          "name": "SOP Keuangan dan Administrasi",
+          "goal": "Standardisasi pengelolaan keuangan",
+          "description": "Membuat prosedur baku untuk pengelolaan keuangan organisasi yang transparan dan akuntabel"
+        },
+        {
+          "id": 202,
+          "name": "BAK (Bank Administrasi Keuangan)",
+          "goal": "Mengelola dana organisasi",
+          "description": "Menjalankan fungsi perbankan internal untuk mengelola semua transaksi keuangan organisasi"
+        },
+        {
+          "id": 203,
+          "name": "Pengelolaan Penarikan Iuran Anggota",
+          "goal": "Mengumpulkan iuran secara efisien",
+          "description": "Mengelola sistem penarikan iuran anggota dengan transparan dan responsif"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "department": "Internal",
+      "programs": [
+        {
+          "id": 301,
+          "name": "Koordinasi Internal Struktur",
+          "goal": "Memperkuat komunikasi internal",
+          "description": "Memastikan koordinasi yang baik antar divisi dalam organisasi"
+        },
+        {
+          "id": 302,
+          "name": "Program Pengembangan Anggota",
+          "goal": "Meningkatkan kualitas anggota",
+          "description": "Mengadakan program pelatihan dan pengembangan untuk semua anggota organisasi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "department": "Eksternal",
+      "programs": [
+        {
+          "id": 401,
+          "name": "Kerjasama Strategis",
+          "goal": "Membangun kemitraan eksternal",
+          "description": "Menjalin hubungan dan kerjasama dengan organisasi lain baik nasional maupun internasional"
+        },
+        {
+          "id": 402,
+          "name": "Public Relations",
+          "goal": "Meningkatkan reputasi organisasi",
+          "description": "Mengelola hubungan media dan public image organisasi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "department": "Teknologi Informasi",
+      "programs": [
+        {
+          "id": 501,
+          "name": "Pengembangan Website",
+          "goal": "Membangun platform digital",
+          "description": "Mengembangkan dan memelihara website ISMAFARSI sebagai pusat informasi digital"
+        },
+        {
+          "id": 502,
+          "name": "Sistem Informasi Organisasi",
+          "goal": "Digitalisasi proses organisasi",
+          "description": "Membangun sistem informasi terintegrasi untuk mendukung operasional organisasi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "department": "Pengkaderan",
+      "programs": [
+        {
+          "id": 601,
+          "name": "Program Recruitment",
+          "goal": "Mencari talenta baru",
+          "description": "Melakukan seleksi dan recruitment anggota baru yang berkualitas"
+        },
+        {
+          "id": 602,
+          "name": "Training Kepemimpinan",
+          "goal": "Mengembangkan pemimpin muda",
+          "description": "Memberikan training intensif untuk mengembangkan kepemimpinan generasi muda"
+        }
+      ]
+    }
+  ]
+}

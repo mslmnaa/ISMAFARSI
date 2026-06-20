@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "MUNAS (Musyawarah Nasional)",
+      "category": "Event Nasional",
+      "date": "2024-07-15",
+      "location": "Jakarta, Indonesia",
+      "description": "Musyawarah Nasional ISMAFARSI untuk membahas kebijakan dan program kerja",
+      "status": "upcoming"
+    },
+    {
+      "id": 2,
+      "name": "PRAMUNAS (Pra-Musyawarah Nasional)",
+      "category": "Event Nasional",
+      "date": "2024-06-20",
+      "location": "Bandung, Indonesia",
+      "description": "Persiapan untuk Musyawarah Nasional dengan diskusi mendalam",
+      "status": "upcoming"
+    },
+    {
+      "id": 3,
+      "name": "RAKERNAS (Rapat Kerja Nasional)",
+      "category": "Event Nasional",
+      "date": "2024-08-10",
+      "location": "Surabaya, Indonesia",
+      "description": "Rapat kerja untuk evaluasi dan perencanaan program nasional",
+      "status": "upcoming"
+    },
+    {
+      "id": 4,
+      "name": "RAKORNAS (Rapat Koordinasi Nasional)",
+      "category": "Event Nasional",
+      "date": "2024-09-05",
+      "location": "Yogyakarta, Indonesia",
+      "description": "Koordinasi nasional dengan semua regional dan institusi anggota",
+      "status": "upcoming"
+    },
+    {
+      "id": 5,
+      "name": "PIMFI (Pharmaceutical International Medical Festival)",
+      "category": "Event Nasional",
+      "date": "2024-10-20",
+      "location": "Jakarta, Indonesia",
+      "description": "Festival internasional terkait farmasi dan kesehatan",
+      "status": "upcoming"
+    }
+  ],
+  "upcomingEvent": {
+    "id": 1,
+    "name": "MUNAS 2024",
+    "date": "2024-07-15",
+    "daysLeft": 15
+  }
+}

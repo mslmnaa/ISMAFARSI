@@ -1,0 +1,202 @@
+export const defaultContent = {
+  site: {
+    brandName: 'ISMAFARSI',
+    fullName: 'Ikatan Senat Mahasiswa Farmasi Seluruh Indonesia',
+    footerCopyright: '© 2024 ISMAFARSI. All rights reserved.',
+    email: 'info@ismafarsi.org',
+    phone: '+62 XXX XXX XXXX',
+    location: 'Indonesia',
+    whatsapp: '+62 XXX XXX XXXX',
+  },
+  home: {
+    badge: 'Organisasi Mahasiswa Farmasi Nasional',
+    title: 'ISMAFARSI',
+    subtitle: 'Ikatan Senat Mahasiswa Farmasi Seluruh Indonesia',
+    description:
+      'ISMAFARSI merupakan organisasi mahasiswa farmasi tingkat nasional yang menjadi wadah kolaborasi, pengembangan kompetensi, advokasi, serta pengabdian mahasiswa farmasi Indonesia dalam mewujudkan generasi farmasis yang profesional, progresif, dan berdampak bagi bangsa.',
+    ctas: [
+      { label: 'Selayang Pandang', path: '/selayang-pandang', variant: 'primary' },
+      { label: 'Program Kerja', path: '/program-kerja', variant: 'secondary' },
+      { label: 'Hubungi Kami', path: '/kontak', variant: 'outline' },
+    ],
+    commitmentsTitle: 'Komitmen Kami',
+    commitmentsSubtitle: 'Membangun generasi farmasis yang profesional, inovatif, dan berdampak bagi masyarakat',
+    commitments: [
+      { icon: 'Pill', title: 'Profesional', description: 'Mengembangkan standar kompetensi farmasi tingkat nasional' },
+      { icon: 'Users', title: 'Kolaboratif', description: 'Membangun jaringan kerjasama dengan institusi di seluruh Indonesia' },
+      { icon: 'BookOpen', title: 'Edukatif', description: 'Menyediakan program pelatihan dan pengembangan berkelanjutan' },
+      { icon: 'Zap', title: 'Inovatif', description: 'Mendorong pemikiran kreatif dan solusi baru dalam kefarmasian' },
+    ],
+  },
+  stats: [
+    { value: '125+', label: 'Perguruan Tinggi', suffix: '' },
+    { value: '8', label: 'Wilayah Nasional', suffix: '' },
+    { value: 'Ribuan', label: 'Mahasiswa Farmasi', suffix: '' },
+    { value: '1955', label: 'Berdiri Sejak', suffix: '' },
+  ],
+  selayang: {
+    headerTitle: 'Selayang Pandang ISMAFARSI',
+    headerSubtitle: 'Mengenal lebih jauh organisasi mahasiswa farmasi nasional',
+    historyParagraphs: [
+      'ISMAFARSI berawal dari MAFARSI (Mahasiswa Farmasi Indonesia) yang didirikan pada tahun 1955 di Kaliurang, Yogyakarta. Sebagai organisasi pemula, MAFARSI telah menjadi cikal bakal dari gerakan mahasiswa farmasi di Indonesia.',
+      'Melalui perjalanan panjang dan dedikasi anggota-anggotanya, MAFARSI bertransformasi menjadi ISMAFARSI (Ikatan Senat Mahasiswa Farmasi Seluruh Indonesia) pada tahun 1981 di Bukittinggi melalui MAFARSI V. Transformasi ini menandai komitmen untuk menjadi organisasi yang lebih inklusif dan representatif bagi seluruh mahasiswa farmasi Indonesia.',
+      'Saat ini, ISMAFARSI telah berkembang menjadi organisasi mahasiswa farmasi nasional yang menaungi Lembaga Eksekutif Mahasiswa (LEM) Farmasi dari seluruh institusi pendidikan farmasi di Indonesia. Dengan lebih dari 125 perguruan tinggi anggota dan 8 wilayah nasional, ISMAFARSI terus berkomitmen untuk memberikan kontribusi positif terhadap pengembangan profesi farmasi dan kesejahteraan mahasiswa farmasi Indonesia.',
+    ],
+    visionTitle: 'Visi',
+    visionDescription:
+      'Mewujudkan lembaga eksekutif mahasiswa secara khususnya dan mahasiswa farmasi pada umumnya yang bertanggung jawab, sadar serta mampu dalam menjunjung tinggi norma dan etika profesi farmasi',
+    cabinetVisionTitle: 'Visi Pranavritta',
+    cabinetVisionDescription:
+      'Membangun ISMAFARSI menjadi mercusuar kemajuan pendidikan kefarmasian di Indonesia, memancarkan teladan kepemimpinan bagi generasi muda dalam mengaktualisasikan pelayanan kefarmasian yang mencerahkan dan bermanfaat bagi masyarakat dan insan farmasi',
+    missionIntro: 'Organisasi ISMAFARSI berusaha mencapai visinya melalui misi-misi strategis berikut:',
+    missions: [
+      { num: '1', title: 'Membina Kerjasama', desc: 'Membina kerjasama antara mahasiswa farmasi pada khususnya dan mahasiswa lain pada umumnya.' },
+      { num: '2', title: 'Kemitraan Strategis', desc: 'Membina kerja sama dengan Ikatan Organisasi Mahasiswa dan profesi kesehatan, nasional maupun internasional.' },
+      { num: '3', title: 'Pengembangan Kompetensi', desc: 'Mengembangkan daya penalaran, keahlian, keterampilan, dan kreativitas mahasiswa dalam bidang kefarmasian.' },
+      { num: '4', title: 'Pemecahan Masalah', desc: 'Menampung dan memecahkan masalah yang dihadapi oleh mahasiswa farmasi dan kefarmasian.' },
+      { num: '5', title: 'Persatuan Nasional', desc: 'Meningkatkan persatuan nasional melalui kegiatan kemahasiswaan yang berkelanjutan.' },
+      { num: '6', title: 'Advokasi Kebijakan', desc: 'Mengkaji dan merekomendasikan kebijakan kefarmasian dan kesehatan kepada pemerintah.' },
+    ],
+    cabinetMissionTitle: 'Misi Kabinet Pranavritta',
+    cabinetMissionIntro:
+      'Kabinet Pranavritta 2024-2026 memiliki 6 misi strategis untuk melanjutkan dan mengembangkan organisasi:',
+    cabinetMissions: [
+      'Memperkuat komunikasi dan koordinasi organisasi',
+      'Mengembangkan program kerja inovatif dan berkualitas',
+      'Menjalin kemitraan strategis nasional maupun internasional',
+      'Menjadi wadah pengembangan kepemimpinan mahasiswa farmasi',
+      'Meningkatkan kepedulian masyarakat terhadap profesi farmasi',
+      'Memperluas jejaring internasional mahasiswa farmasi',
+    ],
+  },
+  kabinet: {
+    headerTitle: 'Kabinet Pranavritta 2024-2026',
+    headerSubtitle: 'Struktur dan anggota kabinet ISMAFARSI tahun 2024-2026',
+    cabinet: 'Pranavritta 2024-2026',
+    year: '2024-2026',
+    intro: 'Profil anggota kabinet Pranavritta 2024-2026',
+    visi:
+      'Membangun ISMAFARSI menjadi mercusuar kemajuan pendidikan kefarmasian di Indonesia, memancarkan teladan kepemimpinan bagi generasi muda dalam mengaktualisasikan pelayanan kefarmasian yang mencerahkan dan bermanfaat bagi masyarakat dan insan farmasi.',
+    misi: [
+      'Memperkuat komunikasi dan koordinasi organisasi',
+      'Mengembangkan program kerja inovatif dan berkualitas',
+      'Menjalin kemitraan strategis nasional maupun internasional',
+      'Menjadi wadah pengembangan kepemimpinan mahasiswa farmasi',
+      'Meningkatkan kepedulian masyarakat terhadap profesi farmasi',
+      'Memperluas jejaring internasional mahasiswa farmasi',
+    ],
+    members: [
+      { id: 1, name: 'Nama Sekjen 1', position: 'Sekretaris Jenderal', institution: 'Universitas Contoh', photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop', description: 'Memimpin organisasi dengan visi dan misi yang jelas' },
+      { id: 2, name: 'Nama Wakil 1', position: 'Wakil Sekretaris Jenderal', institution: 'Universitas Contoh 2', photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop', description: 'Mendampingi Sekjen dalam menjalankan tugas' },
+      { id: 3, name: 'Nama Bendahara', position: 'Bendahara Umum', institution: 'Universitas Contoh 3', photo: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop', description: 'Mengelola keuangan organisasi dengan transparan' },
+      { id: 4, name: 'Nama Sekretaris', position: 'Sekretaris Kabinet', institution: 'Universitas Contoh 4', photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop', description: 'Mengurus administrasi dan dokumentasi kegiatan' },
+      { id: 5, name: 'Nama Ketua Divisi', position: 'Ketua Divisi Internal', institution: 'Universitas Contoh 5', photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop', description: 'Menangani hubungan internal anggota organisasi' },
+    ],
+  },
+  programKerja: {
+    headerTitle: 'Program Kerja Pranavritta',
+    headerSubtitle: 'Rencana kerja dan program strategis ISMAFARSI 2024-2026',
+    period: '2024-2026',
+    departments: [
+      { id: 1, department: 'Sekretaris Kabinet', programs: [
+        { id: 101, name: 'SOP Kesekretariatan', goal: 'Standardisasi prosedur kesekretariatan', description: 'Membuat dan mendokumentasikan prosedur operasional standar untuk semua kegiatan kesekretariatan organisasi' },
+        { id: 102, name: 'Management of ISMAFARSI Activity', goal: 'Mengelola seluruh aktivitas organisasi', description: 'Mengkoordinasikan dan mengelola semua kegiatan ISMAFARSI dari perencanaan hingga evaluasi' },
+        { id: 103, name: 'Pengarsipan Berkas Kepengurusan', goal: 'Memelihara dokumentasi organisasi', description: 'Menyimpan dan mengorganisir semua dokumen kepengurusan dengan sistem yang terstruktur' },
+        { id: 104, name: 'Database Event Nasional ISMAFARSI', goal: 'Menciptakan database event', description: 'Membuat dan memelihara database yang berisi informasi lengkap semua event nasional' },
+        { id: 105, name: 'Pembuatan dan Penyimpanan Inventaris ISMAFARSI', goal: 'Mengelola inventaris organisasi', description: 'Membuat dan memelihara inventaris aset organisasi dengan pencatatan yang akurat' },
+      ]},
+      { id: 2, department: 'Keuangan dan Bisnis', programs: [
+        { id: 201, name: 'SOP Keuangan dan Administrasi', goal: 'Standardisasi pengelolaan keuangan', description: 'Membuat prosedur baku untuk pengelolaan keuangan organisasi yang transparan dan akuntabel' },
+        { id: 202, name: 'BAK (Bank Administrasi Keuangan)', goal: 'Mengelola dana organisasi', description: 'Menjalankan fungsi perbankan internal untuk mengelola semua transaksi keuangan organisasi' },
+        { id: 203, name: 'Pengelolaan Penarikan Iuran Anggota', goal: 'Mengumpulkan iuran secara efisien', description: 'Mengelola sistem penarikan iuran anggota dengan transparan dan responsif' },
+      ]},
+      { id: 3, department: 'Internal', programs: [
+        { id: 301, name: 'Koordinasi Internal Struktur', goal: 'Memperkuat komunikasi internal', description: 'Memastikan koordinasi yang baik antar divisi dalam organisasi' },
+        { id: 302, name: 'Program Pengembangan Anggota', goal: 'Meningkatkan kualitas anggota', description: 'Mengadakan program pelatihan dan pengembangan untuk semua anggota organisasi' },
+      ]},
+      { id: 4, department: 'Eksternal', programs: [
+        { id: 401, name: 'Kerjasama Strategis', goal: 'Membangun kemitraan eksternal', description: 'Menjalin hubungan dan kerjasama dengan organisasi lain baik nasional maupun internasional' },
+        { id: 402, name: 'Public Relations', goal: 'Meningkatkan reputasi organisasi', description: 'Mengelola hubungan media dan public image organisasi' },
+      ]},
+      { id: 5, department: 'Teknologi Informasi', programs: [
+        { id: 501, name: 'Pengembangan Website', goal: 'Membangun platform digital', description: 'Mengembangkan dan memelihara website ISMAFARSI sebagai pusat informasi digital' },
+        { id: 502, name: 'Sistem Informasi Organisasi', goal: 'Digitalisasi proses organisasi', description: 'Membangun sistem informasi terintegrasi untuk mendukung operasional organisasi' },
+      ]},
+      { id: 6, department: 'Pengkaderan', programs: [
+        { id: 601, name: 'Program Recruitment', goal: 'Mencari talenta baru', description: 'Melakukan seleksi dan recruitment anggota baru yang berkualitas' },
+        { id: 602, name: 'Training Kepemimpinan', goal: 'Mengembangkan pemimpin muda', description: 'Memberikan training intensif untuk mengembangkan kepemimpinan generasi muda' },
+      ]},
+    ],
+  },
+  mediaBerita: {
+    headerTitle: 'Media & Berita',
+    headerSubtitle: 'Berita terbaru dari ISMAFARSI',
+    categories: ['Berita', 'Pengumuman'],
+    news: [
+      { id: 1, title: 'ISMAFARSI Mengadakan Gathering Nasional 2024', category: 'Berita', date: '2024-05-15', author: 'Admin', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop', excerpt: 'ISMAFARSI berhasil mengadakan gathering nasional dengan kehadiran lebih dari 500 peserta dari berbagai institusi', content: 'Kegiatan gathering nasional ISMAFARSI telah berlangsung dengan sukses di Jakarta. Acara ini menghadirkan berbagai keynote speaker dari organisasi nasional dan internasional.' },
+      { id: 2, title: 'Program Beasiswa ISMAFARSI untuk Mahasiswa Berprestasi', category: 'Pengumuman', date: '2024-05-10', author: 'Admin', image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&h=400&fit=crop', excerpt: 'ISMAFARSI membuka program beasiswa untuk mahasiswa farmasi yang berprestasi akademik dan non-akademik', content: 'Beasiswa ini bertujuan untuk mendukung pengembangan mahasiswa farmasi yang memiliki potensi tinggi dan komitmen terhadap organisasi.' },
+      { id: 3, title: 'Workshop Kepemimpinan ISMAFARSI Mencapai Sukses', category: 'Berita', date: '2024-04-28', author: 'Admin', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop', excerpt: 'Workshop kepemimpinan yang diselenggarakan ISMAFARSI berhasil melatih 200 peserta dari seluruh Indonesia', content: 'Workshop ini mencakup materi tentang kepemimpinan, manajemen, dan pengembangan keterampilan khusus untuk farmasis muda.' },
+      { id: 4, title: 'Kolaborasi ISMAFARSI dengan Organisasi Internasional', category: 'Pengumuman', date: '2024-04-15', author: 'Admin', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop', excerpt: 'ISMAFARSI menjalin kolaborasi strategis dengan IFMSA dan IPSF untuk meningkatkan jejaring internasional', content: 'Kolaborasi ini akan membuka peluang pertukaran pelajar, joint research, dan program pengembangan kompetensi internasional.' },
+    ],
+  },
+  events: {
+    headerTitle: 'Event ISMAFARSI',
+    headerSubtitle: 'Jadwal dan informasi kegiatan nasional',
+    categories: ['Event Nasional'],
+    upcomingEvent: { id: 1, name: 'MUNAS 2024', date: '2024-07-15', daysLeft: 15 },
+    events: [
+      { id: 1, name: 'MUNAS (Musyawarah Nasional)', category: 'Event Nasional', date: '2024-07-15', location: 'Jakarta, Indonesia', description: 'Musyawarah Nasional ISMAFARSI untuk membahas kebijakan dan program kerja', status: 'upcoming' },
+      { id: 2, name: 'PRAMUNAS (Pra-Musyawarah Nasional)', category: 'Event Nasional', date: '2024-06-20', location: 'Bandung, Indonesia', description: 'Persiapan untuk Musyawarah Nasional dengan diskusi mendalam', status: 'upcoming' },
+      { id: 3, name: 'RAKERNAS (Rapat Kerja Nasional)', category: 'Event Nasional', date: '2024-08-10', location: 'Surabaya, Indonesia', description: 'Rapat kerja untuk evaluasi dan perencanaan program nasional', status: 'upcoming' },
+      { id: 4, name: 'RAKORNAS (Rapat Koordinasi Nasional)', category: 'Event Nasional', date: '2024-09-05', location: 'Yogyakarta, Indonesia', description: 'Koordinasi nasional dengan semua regional dan institusi anggota', status: 'upcoming' },
+      { id: 5, name: 'PIMFI (Pharmaceutical International Medical Festival)', category: 'Event Nasional', date: '2024-10-20', location: 'Jakarta, Indonesia', description: 'Festival internasional terkait farmasi dan kesehatan', status: 'upcoming' },
+    ],
+  },
+  wilayah: {
+    headerTitle: 'Regional ISMAFARSI',
+    headerSubtitle: 'Struktur wilayah ISMAFARSI di seluruh Indonesia',
+    regions: [
+      { id: 1, name: 'ISMAFARSI SUMATERA 1', code: 'SUM1', description: 'Wilayah ISMAFARSI yang mencakup Sumatera Utara, Riau, dan Kepulauan Riau', provinces: ['Sumatera Utara', 'Riau', 'Kepulauan Riau'], members: 150, universities: 12, head: 'Nama Ketua Regional', email: 'sum1@ismafarsi.org' },
+      { id: 2, name: 'ISMAFARSI SUMATERA 2', code: 'SUM2', description: 'Wilayah ISMAFARSI yang mencakup Sumatera Barat, Jambi, dan Bengkulu', provinces: ['Sumatera Barat', 'Jambi', 'Bengkulu'], members: 120, universities: 10, head: 'Nama Ketua Regional', email: 'sum2@ismafarsi.org' },
+      { id: 3, name: 'ISMAFARSI JABODELATA', code: 'JABODELATA', description: 'Wilayah ISMAFARSI yang mencakup Jakarta, Bogor, Depok, Tangerang, dan Bekasi', provinces: ['DKI Jakarta', 'Jawa Barat'], members: 500, universities: 35, head: 'Nama Ketua Regional', email: 'jabodelata@ismafarsi.org' },
+      { id: 4, name: 'ISMAFARSI PRIANGAN', code: 'PRIANGAN', description: 'Wilayah ISMAFARSI yang mencakup Bandung, Cirebon, dan sekitarnya', provinces: ['Jawa Barat'], members: 200, universities: 18, head: 'Nama Ketua Regional', email: 'priangan@ismafarsi.org' },
+      { id: 5, name: 'ISMAFARSI JOGLOSEPUR', code: 'JOGLOSEPUR', description: 'Wilayah ISMAFARSI yang mencakup Yogyakarta, Solo, dan Semarang', provinces: ['DI Yogyakarta', 'Jawa Tengah'], members: 250, universities: 20, head: 'Nama Ketua Regional', email: 'joglosepur@ismafarsi.org' },
+      { id: 6, name: 'ISMAFARSI BATARA JATIM', code: 'JATIM', description: 'Wilayah ISMAFARSI Jawa Timur', provinces: ['Jawa Timur'], members: 350, universities: 28, head: 'Nama Ketua Regional', email: 'jatim@ismafarsi.org' },
+      { id: 7, name: 'ISMAFARSI KALIMANTAN', code: 'KALIMANTAN', description: 'Wilayah ISMAFARSI yang mencakup seluruh pulau Kalimantan', provinces: ['Kalimantan Barat', 'Kalimantan Selatan', 'Kalimantan Tengah', 'Kalimantan Timur', 'Kalimantan Utara'], members: 80, universities: 8, head: 'Nama Ketua Regional', email: 'kalimantan@ismafarsi.org' },
+      { id: 8, name: 'ISMAFARSI INDONESIA TIMUR', code: 'TIMUR', description: 'Wilayah ISMAFARSI yang mencakup Sulawesi, Bali, NTT, NTB, dan Papua', provinces: ['Sulawesi', 'Bali', 'Nusa Tenggara Timur', 'Nusa Tenggara Barat', 'Papua'], members: 100, universities: 9, head: 'Nama Ketua Regional', email: 'timur@ismafarsi.org' },
+    ],
+  },
+  konstitusi: {
+    headerTitle: 'Konstitusi ISMAFARSI',
+    headerSubtitle: 'Dasar hukum dan peraturan organisasi',
+    legalitas: [
+      { title: 'SK Direktorat Jenderal Pendidikan Tinggi', value: 'No. 974/D5.2/T/2007' },
+      { title: 'SK Ikatan Apoteker Indonesia (IAI)', value: 'No. 038/SKET/PP.IAI/XI/2013' },
+    ],
+    identitas: [
+      { label: 'Nama', value: 'ISMAFARSI' },
+      { label: 'Nama Lengkap', value: 'Ikatan Senat Mahasiswa Farmasi Seluruh Indonesia' },
+      { label: 'Tahun Berdiri', value: '1955' },
+      { label: 'Bentuk Organisasi', value: 'Organisasi Mahasiswa Nasional' },
+      { label: 'Sifat Organisasi', value: 'Organisasi Nirlaba' },
+    ],
+  },
+  kontak: {
+    headerTitle: 'Hubungi Kami',
+    headerSubtitle: 'Kami siap membantu menjawab pertanyaan Anda',
+    infoCards: [
+      { title: 'Email', value: 'info@ismafarsi.org', icon: 'Mail' },
+      { title: 'WhatsApp', value: '+62 XXX XXX XXXX', icon: 'Phone' },
+      { title: 'Lokasi', value: 'Sekretariat ISMAFARSI', icon: 'MapPin' },
+    ],
+    formTitle: 'Kirim Pesan',
+    socialTitle: 'Ikuti Kami di Media Sosial',
+    socials: ['Instagram', 'TikTok', 'LinkedIn', 'Facebook'],
+  },
+  socialLinks: [
+    { name: 'Instagram', url: '#', icon: 'instagram' },
+    { name: 'TikTok', url: '#', icon: 'tiktok' },
+    { name: 'LinkedIn', url: '#', icon: 'linkedin' },
+    { name: 'Facebook', url: '#', icon: 'facebook' },
+  ],
+};

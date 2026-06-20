@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "ISMAFARSI Mengadakan Gathering Nasional 2024",
+      "category": "Berita",
+      "date": "2024-05-15",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+      "excerpt": "ISMAFARSI berhasil mengadakan gathering nasional dengan kehadiran lebih dari 500 peserta dari berbagai institusi",
+      "content": "Kegiatan gathering nasional ISMAFARSI telah berlangsung dengan sukses di Jakarta. Acara ini menghadirkan berbagai keynote speaker dari organisasi nasional dan internasional."
+    },
+    {
+      "id": 2,
+      "title": "Program Beasiswa ISMAFARSI untuk Mahasiswa Berprestasi",
+      "category": "Pengumuman",
+      "date": "2024-05-10",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&h=400&fit=crop",
+      "excerpt": "ISMAFARSI membuka program beasiswa untuk mahasiswa farmasi yang berprestasi akademik dan non-akademik",
+      "content": "Beasiswa ini bertujuan untuk mendukung pengembangan mahasiswa farmasi yang memiliki potensi tinggi dan komitmen terhadap organisasi."
+    },
+    {
+      "id": 3,
+      "title": "Workshop Kepemimpinan ISMAFARSI Mencapai Sukses",
+      "category": "Berita",
+      "date": "2024-04-28",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+      "excerpt": "Workshop kepemimpinan yang diselenggarakan ISMAFARSI berhasil melatih 200 peserta dari seluruh Indonesia",
+      "content": "Workshop ini mencakup materi tentang kepemimpinan, manajemen, dan pengembangan keterampilan khusus untuk farmasis muda."
+    },
+    {
+      "id": 4,
+      "title": "Kolaborasi ISMAFARSI dengan Organisasi Internasional",
+      "category": "Pengumuman",
+      "date": "2024-04-15",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+      "excerpt": "ISMAFARSI menjalin kolaborasi strategis dengan IFMSA dan IPSF untuk meningkatkan jejaring internasional",
+      "content": "Kolaborasi ini akan membuka peluang pertukaran pelajar, joint research, dan program pengembangan kompetensi internasional."
+    }
+  ]
+}

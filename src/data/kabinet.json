@@ -1,0 +1,55 @@
+{
+  "cabinet": "Pranavritta 2024-2026",
+  "year": "2024-2026",
+  "members": [
+    {
+      "id": 1,
+      "name": "Nama Sekjen 1",
+      "position": "Sekretaris Jenderal",
+      "institution": "Universitas Contoh",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "description": "Memimpin organisasi dengan visi dan misi yang jelas"
+    },
+    {
+      "id": 2,
+      "name": "Nama Wakil 1",
+      "position": "Wakil Sekretaris Jenderal",
+      "institution": "Universitas Contoh 2",
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "description": "Mendampingi Sekjen dalam menjalankan tugas"
+    },
+    {
+      "id": 3,
+      "name": "Nama Bendahara",
+      "position": "Bendahara Umum",
+      "institution": "Universitas Contoh 3",
+      "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+      "description": "Mengelola keuangan organisasi dengan transparan"
+    },
+    {
+      "id": 4,
+      "name": "Nama Sekretaris",
+      "position": "Sekretaris Kabinet",
+      "institution": "Universitas Contoh 4",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      "description": "Mengurus administrasi dan dokumentasi kegiatan"
+    },
+    {
+      "id": 5,
+      "name": "Nama Ketua Divisi",
+      "position": "Ketua Divisi Internal",
+      "institution": "Universitas Contoh 5",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "description": "Menangani hubungan internal anggota organisasi"
+    }
+  ],
+  "visi": "Membangun ISMAFARSI menjadi mercusuar kemajuan pendidikan kefarmasian di Indonesia, memancarkan teladan kepemimpinan bagi generasi muda dalam mengaktualisasikan pelayanan kefarmasian yang mencerahkan dan bermanfaat bagi masyarakat dan insan farmasi.",
+  "misi": [
+    "Memperkuat komunikasi dan koordinasi organisasi",
+    "Mengembangkan program kerja inovatif dan berkualitas",
+    "Menjalin kemitraan strategis nasional maupun internasional",
+    "Menjadi wadah pengembangan kepemimpinan mahasiswa farmasi",
+    "Meningkatkan kepedulian masyarakat terhadap profesi farmasi",
+    "Memperluas jejaring internasional mahasiswa farmasi"
+  ]
+}
