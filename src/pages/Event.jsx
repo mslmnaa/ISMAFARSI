@@ -64,7 +64,7 @@ const Event = () => {
         </motion.div>
       </section>
 
-      {/* Upcoming Event Highlight */}
+      {/* Upcoming Event Highlight
       {upcomingEvent && (
         <section className="py-12 px-4 bg-primary-700 dark:bg-primary-700/20">
           <motion.div className="max-w-6xl mx-auto text-center text-white dark:text-primary-50" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
@@ -78,7 +78,7 @@ const Event = () => {
             </div>
           </motion.div>
         </section>
-      )}
+      )} */}
 
       {/* Events Grid */}
       <section className="py-20 px-4">
